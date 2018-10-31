@@ -1,8 +1,12 @@
 /*////////////// Fonts //////////////*/
-
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
+
+* {
+  box-sizing: border-box;
+}
 
 body {
 	background: #F3EBE9;
@@ -12,9 +16,91 @@ body {
 
 .wrapper {
 	width: 960px;
-	margin: 0 auto;
+	margin: -40px auto 0;
 	background: #fff;
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+
+/*---- LAYOUT ----*/
+
+h1 {
+  display: block;
+  font-family: "Libre Baskerville", serif;
+  font-size: 3.5em;
+  color: rgb(152, 173, 166);
+  border-bottom: solid .5px rgb(204, 204, 204);
+  line-height: 2em;
+}
+
+#necklace-image img {
+  max-width: 100%;
+  border: solid 5px rgb(152, 173, 166);
+  margin-top: -30px;
+}
+
+h3 {
+  color: rgb(111, 127, 122);
+  font-size: 2em;
+}
+
+
+
+.press {
+  display: block;
+  width: 24.5%;
+  border: solid 5px rgb(204, 204, 204);
+  margin-right: .5%;
+  float: left;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+footer p {
+  font-size: .75em;
+  text-align: right;
+  margin-top: 20px;
+}
+/*---- LINKS ----*/
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(111, 127, 122);
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  
+}
+
+#learn:link {
+  color:rgb(65, 132, 185);
+  text-decoration: none;
+}
+#learn:hover {
+  color: rgb(65, 132, 185);
+  text-decoration: underline;
+}
+
+#learn:visited {
+  color: rgb(65, 132, 185);
+  text-decoration: none;
+}
+
+#learn:active {
+  color: rgb(65, 132, 185)  ;
+}
+
+.press:hover {
+  border-color: rgb(111, 127, 122);
+}

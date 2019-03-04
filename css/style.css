@@ -20,7 +20,8 @@ body {
 header {
 	top: 0;
 	left: 0;
-	border-bottom: 10px;
+	border-bottom: 1px solid #9AABA5;
+	margin-bottom: 2px;
 }
 #title h1 {
 	font-family: 'Libre Baskerville', serif;

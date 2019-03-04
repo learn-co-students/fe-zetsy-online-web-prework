@@ -18,15 +18,23 @@ body {
 }
 
 header {
-	top: 0;
-	left: 0;
+	/*top: 0;
+	left: 0;*/
+	padding-top: 10px;
+	padding-bottom: 0px;
 	border-bottom: 1px solid #9AABA5;
 	margin-bottom: 2px;
+	margin-top: 0px;
+}
+
+#title {
+	vertical-align: bottom;
 }
 #title h1 {
 	font-family: 'Libre Baskerville', serif;
 	color: #9AABA5;
 	font-size: 3em;
+	height: 30px;
 }
 
 section {

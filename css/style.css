@@ -60,6 +60,10 @@ header a {
 }
 
 header a:hover {
+  -webkit-transition: color 0.9s ease;
+  -moz-transition: color 0.9s ease;
+  -o-transition: color 0.9s ease;
+  transition: color 0.9s ease;
 	color: rgb(111,127,122);
 }
 
@@ -73,7 +77,12 @@ header a:hover {
 	text-decoration: none;
 }
 #featured a:hover {
+  -webkit-transition: background-color 0.9s ease;
+  -moz-transition: background-color 0.9s ease;
+  -o-transition: background-color 0.9s ease;
+  transition: background-color 0.9s ease;
 	text-decoration: underline;
+	background-color: rgb(247,240,238);
 }
 
 /* Press */
@@ -85,6 +94,10 @@ header a:hover {
 	padding: 1px;
 }
 #press img:hover {
+  -webkit-transition: border-color 0.9s ease;
+  -moz-transition: border-color 0.9s ease;
+  -o-transition: border-color 0.9s ease;
+  transition: border-color 0.9s ease;
 	border: 5px rgb(111,127,122) solid;
 }
 

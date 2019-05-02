@@ -1,5 +1,8 @@
 /*////////////// Fonts //////////////*/
-
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
@@ -8,6 +11,15 @@ body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+	color: #555;
+}
+
+header {
+	margin: 0 auto;
+}
+
+header a {
+	text-decoration: none;
 }
 
 .wrapper {
@@ -17,4 +29,76 @@ body {
 	padding: 0 45px 20px;
 }
 
+main {
+	width: 100%;
+}
+
+#main-img {
+	border: 5px solid #98ADA6;
+}
+
+h1 {
+	color: #98ADA6;
+	font-family: Baskerville, serif;
+	font-size: 5em;
+	margin: 0 0 5px;
+	padding: 0 0 10px;
+	border-bottom: 1px solid #98ADA6;
+}
+
+h2 {
+	font-size: 2em;
+	color: #6f7f7a;
+}
+
+#press-container {
+	align-content: center;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+#press-container a {
+	border: 5px solid #ccc;
+	display: inline-block;
+	height: 9em;
+	margin-bottom: 1em;
+	width: 23.5%;
+}
+
+#press-container a:hover {
+	border-color: #6f7f7a;
+}
+
+.press-cards {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding:0;
+}
+
+#pc-1 {
+	background-image: url("../images/nmai-logo.png");
+	background-size: cover;
+}
+#pc-2 {
+	background-image: url("../images/times-logo.png");
+	background-size: cover;
+}
+#pc-3 {
+	background-image: url("../images/sedona-logo.png");
+	background-size: cover;
+}
+#pc-4 {
+	background-image: url("../images/bergdorf-logo.png");
+	background-size: cover;
+}
+
+footer {
+	font-size: .75em;
+	margin: 1em 0;
+	height: 2em;
+	width: 100%;
+	text-align: right;
+}
 /* Write all remaining styles here */

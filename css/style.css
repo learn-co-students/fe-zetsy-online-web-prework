@@ -4,10 +4,11 @@
 
 /*////////// Global Styles //////////*/
 
-body {
+body, html {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+	height: 100%;
 }
 
 .wrapper {
@@ -18,3 +19,59 @@ body {
 }
 
 /* Write all remaining styles here */
+
+p {
+  color: #555;
+}
+
+h1 {
+  color: #98ADA6;
+  font-size: 5em;
+  font-family: 'Baskerville', serif;
+  border-bottom: 1px solid #CCC;
+  margin: 0px 0px 5px;
+  padding-bottom: 5px;
+}
+
+h1:hover {
+  color: #6F7F7A;
+}
+
+#featured img {
+  border: solid 5px #98ADA6;
+  margin: 0 auto;
+}
+
+#featured h2, #press h2 {
+  color: #6F7F7A;
+  font-size: 2em;
+}
+
+#featured a {
+  color: #3292C3;
+  text-decoration: none;
+}
+
+#featured a:hover     {
+  text-decoration: underline;
+}
+
+#press img {
+  border: 5px solid #ccc;
+  display: inline;
+}
+
+#press img:hover {
+  border: 5px solid #6F7F7A;
+}
+
+.small {
+  font-size: 0.8em;
+  text-align: right;
+}
+
+/*////////// MEDIA //////////*/
+ 
+img, video, audio {
+  max-width: 100%;
+}

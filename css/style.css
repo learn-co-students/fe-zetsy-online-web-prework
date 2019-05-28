@@ -2,6 +2,8 @@
 
 /* link the web font used for the level 1 heading here */
 
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900|Lora|Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps:400,900|Lora|Work+Sans&display=swap');
 /*////////// Global Styles //////////*/
 
 body {
@@ -18,3 +20,11 @@ body {
 }
 
 /* Write all remaining styles here */
+h1 {
+  font-family: "Clicker Script", cursive;
+}
+a {transition: background-color 0.5s ease;
+}
+a:hover {
+  background-color: green;
+}

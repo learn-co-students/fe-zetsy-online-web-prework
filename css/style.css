@@ -52,6 +52,7 @@ header a {
 
 header a:hover {
   color: rgb(111,127,122);
+  transition: background-color 0.5s ease;
  }
 
 #press {
@@ -73,7 +74,5 @@ footer {
   text-align: right;
   background: #fff;
 }
-header a:hover {
-  transition: background-color 0.5s ease;
-}
+
 
